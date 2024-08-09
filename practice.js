@@ -584,3 +584,15 @@ const { json } = require("express")
 //     }
 // },{timestamps:true})
 // export const Order = mongoose.model("Order",orderSchema)
+
+
+// import mongoose from 'mongoose'
+
+// ;(async()=>{
+//     try {
+//         const database = await mongoose.connect(`${connectionString}/${databaseName}`)
+//         console.log(database.mongoose.host)
+//     } catch (error) {
+//         console.error("ERROR", error)
+//     }
+// })()
